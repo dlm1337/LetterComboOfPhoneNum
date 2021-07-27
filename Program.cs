@@ -9,7 +9,6 @@ namespace LetterComboPhoneNum
         public static void Main(String[] args)
         {   var r = new Program();
             var list = r.LetterCombinations(number);
-
             for (int i = 0; i < list.Count; i++)
             {
                 Console.Write(list[i] + " ");
