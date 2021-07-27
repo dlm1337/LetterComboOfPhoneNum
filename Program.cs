@@ -7,13 +7,7 @@ namespace LetterComboPhoneNum
     {
 
         public static void Main(String[] args)
-        {
-            string number = "2334234762";
-
-
-            // Function call
-
-            var r = new Program();
+        {   var r = new Program();
             var list = r.LetterCombinations(number);
 
             for (int i = 0; i < list.Count; i++)
